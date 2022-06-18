@@ -83,7 +83,7 @@ function App(props) {
         {request1_list.map((val,key)=>{
           return(
             <div className="list-group-item list-group-item-action list-group-item-danger" >Name : {val.userName}   Email : {val.email} Reason : {val.reason} Time : {val.time}
-            <a href="/send_email"><button type="submit" id ="btn_reqa" onClick={()=>reject(val._id)} className="btn btn-danger btn-sm">Reject</button></a>
+            <a href="https://atharvabokade.github.io/email-reject/"><button type="submit" id ="btn_reqa" onClick={()=>reject(val._id)} className="btn btn-danger btn-sm">Reject</button></a>
             </div>
           );
         })}
